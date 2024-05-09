@@ -31,27 +31,35 @@
     <script rel="stylesheet" type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script rel="stylesheet" type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   
+    <!-- Internal CSS/JS references -->
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <script rel="stylesheet" type="text/javascript" src="js/portfolio.js"></script>
+  
   </head>
   <body>
     <body>
 
       <!-- Navbar -->
-      <div id="navbar-info" class="container-sm">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-      </div>
+      <div class="container-fluid" id="navbar-info">
+        <div class="row">
+          <nav class="col-md-2 d-none d-md-block vertical-navbar">
+            <div class="sidebar-sticky">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">Education</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
   
     
     </body>

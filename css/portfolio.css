@@ -1,0 +1,14 @@
+.vertical-navbar {
+    background-color: #000;
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+  }
+
+.vertical-navbar .nav-link {
+    color: #fff;
+  }
+
+.vertical-navbar .nav-link:hover {
+    color: #ccc;
+  }
